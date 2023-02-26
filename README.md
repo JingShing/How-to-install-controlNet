@@ -65,13 +65,13 @@ If ControlNet area didn't load model successfully. It is recommend you to reload
 
 ![control1](image/control1.png)
 
-底下有不同的選下可以勾選，記得要勾選 enable 才會使用 controlNet 的姿勢做為參考。如果顯存不足也可以開啟 low-vram 來減輕顯卡負擔。
+It will have several options to check. Remember checked enable to use controlNet pose as reference. If you have less vram you can also check low-vram to reduce vram demand.
 
 ![control2](image/control2.png)
 
-填入關鍵詞後，調整好參數，就可以生成圖片了。輸出的圖片會附上先前調整的 openpose 的圖片，記得保存可以用於下次使用。
+After enter prompt and parameters you can started generate images. Output image will add a openpose for you can use in next time.
 
-輸出的圖片和先前調整的姿勢：
+Output image and pose:
 
 ![out1](image/out_image.png)
 ![out2](image/out_pose.png)
